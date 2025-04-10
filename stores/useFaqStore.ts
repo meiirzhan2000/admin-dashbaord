@@ -1,4 +1,4 @@
-// stores/useFaqStore.js
+// stores/useFaqStore.ts
 import { defineStore } from 'pinia';
 
 export const useFaqStore = defineStore('faq', {

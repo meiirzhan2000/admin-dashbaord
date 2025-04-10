@@ -1,4 +1,4 @@
-// stores/useTicketStore.js
+// stores/useTicketStore.ts
 import { defineStore } from 'pinia';
 
 export const useTicketStore = defineStore('ticket', {

@@ -379,7 +379,7 @@ watch(route, () => {
 const navigation = ref([
   { name: "Dashboard", href: "/", icon: "heroicons:home", current: route.path === "/" },
   { name: "Team", href: "/team", icon: "heroicons:users", current: route.path === "/team" },
-  { name: "Products", href: "/category", icon: "heroicons:folder", current: route.path === "/category" },
+  { name: "Products", href: "/products", icon: "heroicons:folder", current: route.path === "/category" },
   { name: "Reports", href: "/reports", icon: "heroicons:chart-pie", current: route.path === "/reports" },
   { name: "Contact Us", href: "/contact", icon: "heroicons:chat-bubble-left-ellipsis", current: route.path === "/contact" },
   { name: "FAQs", href: "/faqs", icon: "heroicons:question-mark-circle", current: route.path === "/faqs" },
