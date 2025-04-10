@@ -2,17 +2,17 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
-  "scripts": {
+"scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
+    "postinstall": "npm i @rollup/rollup-linux-x64-gnu || npm i @rollup/rollup-linux-x64-musl || true && nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest",
     "typecheck": "nuxt typecheck",
-    "netlify-build": "node setup.js && npm run build"
+    "netlify-build": "npm run build"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
